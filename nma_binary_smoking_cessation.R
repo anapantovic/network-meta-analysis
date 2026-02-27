@@ -57,5 +57,5 @@ net1$tau
 netsplit(net1)
 netheat(net1)
 
-#conducting sensitivity analysis - one out
+#conducting sensitivity analysis - how much each study contributes to each network comparison estimate
 netimpact(net1)
