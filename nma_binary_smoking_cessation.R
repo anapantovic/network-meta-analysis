@@ -59,8 +59,3 @@ netheat(net1)
 
 #conducting sensitivity analysis - one out
 netimpact(net1)
-
-#comparing estimates from fixed vs random effects models
-net_fixed <- update(net1, random = FALSE)
-summary(net_fixed)
-summary(net1)
